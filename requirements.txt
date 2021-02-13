@@ -1,0 +1,13 @@
+# Required Python packages for ShapeWays bulk download tool
+# Install with: python3 -m pip install -r requirements.txt
+# Or install with: pip3 install -r requirements.txt
+
+# for doing downloads:
+requests
+
+# for writing out a table to a CSV at the end:
+pandas
+
+# for unzipping
+# NOTE: not certain if this is a default package or requires a pip install; it's here anyway though
+zipfile
